@@ -85,7 +85,7 @@ GEM
     oj (2.18.5)
     phantomjs (2.1.1.0)
     public_suffix (3.0.3)
-    rack (2.1.4)
+    rack (2.2.11)
     rack-protection (2.0.5)
       rack
     rack-test (1.1.0)
@@ -133,10 +133,10 @@ PLATFORMS
 DEPENDENCIES
   capybara
   learn-co
-  rack
+  rack (>= 2.2.11)
   rspec
   shotgun
   sinatra
 
 BUNDLED WITH
-   2.0.1
+   2.1.4

@@ -5,6 +5,6 @@ gem 'sinatra'
 gem 'shotgun'
 
 gem 'rspec'
-gem 'capybara'
+gem 'capybara', '>= 3.15.0'
 
-gem 'learn-co'
+gem 'learn-co', '>= 4.0.0'

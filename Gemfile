@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'rack'
-gem 'sinatra'
+gem 'rack', '>= 2.2.18'
+gem 'sinatra', '>= 2.0.6'
 gem 'shotgun'
 
 gem 'rspec'
-gem 'capybara'
+gem 'capybara', '>= 3.15.0'
 
-gem 'learn-co'
+gem 'learn-co', '>= 4.0.0'
